@@ -1,6 +1,4 @@
-package Array;
-
-import java.util.Arrays;
+package Miscellaneous;
 
 public class ReverseWord {
 

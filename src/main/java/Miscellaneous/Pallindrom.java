@@ -1,4 +1,4 @@
-package Array;
+package Miscellaneous;
 
 public class Pallindrom {
 

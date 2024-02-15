@@ -1,7 +1,4 @@
-package Array;
-
-import java.util.Arrays;
-import java.util.List;
+package Miscellaneous;
 
 public class DuplicateNumber {
 

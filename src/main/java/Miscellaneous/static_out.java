@@ -1,4 +1,4 @@
-package Array;
+package Miscellaneous;
 
 class static_out {
     static int x;
