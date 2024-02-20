@@ -24,6 +24,6 @@ public class TargetReturnNoOfPair {
         int []arr={3,4,5,6,1};
 
 
-        System.out.println(returnNoOfPair(arr, 6));
+        System.out.println(returnNoOfPair(arr, 9));
     }
 }
