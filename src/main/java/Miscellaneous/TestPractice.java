@@ -1,35 +1,29 @@
 package Miscellaneous;
 
-import java.util.LinkedList;
-import java.util.Stack;
 
-public class TestPractice {
+class Demo{
+    public static void main(String[] args) {
 
-    public static String resverseword(String s) {
-        String[] word = s.split(" ");
-        String res = " ";
-        for (int i = word.length - 1; i >= 0; i--) {
+        int i=123;
 
-            if (i == 0) {
-                res = res + word[i];
+        String str=Integer.toString(i);
+        int sum=0;
+        for (int j = 0; j <str.length() ; j++) {
+            char ch=str.charAt(j);
 
-            } else {
-                res = res + word[i] + " ";
-            }
+            int digit=Character.getNumericValue(ch);
+
+            sum=sum+digit;
+
+
         }
-        return res;
+        System.out.println(sum);
     }
-
-    public static void main(String[] args){
-
-        String s="java is programming language";
-        System.out.println(resverseword(s));
-
-
-
-    }
-
-
-
 }
+
+
+
+
+
+
 

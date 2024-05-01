@@ -19,7 +19,7 @@ public class CountNumbers {
     public static void main(String[] args) {
 
         int [] arr={5,6,7,5,5};
-        int num=7;
+        int num=5;
         System.out.println(countnum(arr, num));
 
     }

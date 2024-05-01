@@ -15,9 +15,12 @@ public class CountOddEven {
             int digit=Character.getNumericValue(ch);
             if(digit%2==0){
                 even++;
+                System.out.print("Even "+ digit);
             }else{
                 odd++;
+                System.out.print("Odd " +digit);
             }
+            System.out.println();
 
         }
         System.out.println(even);
