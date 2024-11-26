@@ -6,7 +6,7 @@ public class IndexOfString {
 
     public static void main(String[] args) {
         String haystack = "leetcode";
-        String needle = "leeto";
+        String needle = "o";
         System.out.println(Arrays.toString(new int[]{findindex(haystack, needle)}));
     }
     static int findindex(String haystack, String needle){

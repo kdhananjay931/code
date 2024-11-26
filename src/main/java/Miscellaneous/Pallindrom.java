@@ -1,20 +1,22 @@
 package Miscellaneous;
 
-public class Pallindrom {
-
-
-
+class Pallindrom {
     public static void main(String[] args) {
-        String s="Abba";
-        s=s.toLowerCase();
 
-        String rev=" ";
-        for (int i=s.length()-1;i>=0;i--){
-            for (int j = 0; j <s.length()-1 ; j++) {
+        String str = "madam";
+                String reverseStr = "";
 
+        int strLength = str.length();
 
-            }
+        for (int i = (strLength - 1); i >=0; i--) {
+            reverseStr = reverseStr + str.charAt(i);
+        }
 
+        if (str.equals(reverseStr)) {
+            System.out.println(str + " is a Palindrome String.");
+        }
+        else {
+            System.out.println(str + " is not a Palindrome String.");
         }
     }
 }
